@@ -10,14 +10,14 @@
 * 将原来的 perl 语言编写的CGI脚本替换，用 Python 语言编写一个简单的演示脚本
 
 ## 编译
-直接make编译即可
-`cd tinyhttpd`
-`make clean`
+直接make编译即可  
+`cd tinyhttpd`  
+`make clean`  
 `make`
 
 ## 使用
-make生成的执行文件名称为 "httpd"
-执行 `./httpd`
-服务器默认在端口4000进行监听
+make生成的执行文件名称为 "httpd"  
+执行 `./httpd`  
+服务器默认在端口4000进行监听  
 在浏览器输入`127.0.0.1:4000`即可
 
