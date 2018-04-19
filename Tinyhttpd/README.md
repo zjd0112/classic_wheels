@@ -3,7 +3,8 @@
 **tinyhttpd** 是一个简单的Http Server，由纯C语言编写，涉及Socket、Http数据包、CGI等知识，有助于读者了解Web服务器的基本原理。
 
 ## 工作流程
-![Alt text](图片链接 "optional title")
+![](https://github.com/zjd0112/classic_wheels/blob/master/Tinyhttpd/imgs/workflow.png)
+
 ## 代码改动
 * 对原代码修改，使之在Ubuntu 16.04上可运行
 * 将原来的 perl 语言编写的CGI脚本替换，用 Python 语言编写一个简单的演示脚本
